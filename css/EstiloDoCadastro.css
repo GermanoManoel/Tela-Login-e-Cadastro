@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+}
+
+body{
+    background-color: #5f9ea0;
+}
+
+div#cadastro{
+    width: 600px;
+    height: 640px;
+    background-color: rgb(255, 254, 254);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+    
+}
+
+label{
+   position: relative;
+   left:135px;
+   top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   background-color: rgb(255, 255, 255);
+ 
+   
+}
+
+li{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input.dados{
+    margin: auto;
+    width: 350px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219);
+    border:none;
+    text-indent: 20px;
+    border: 1.5px solid black;
+
+}
+
+input.dados:hover{
+        border: 2px solid rgb(6, 112, 112);
+}
+
+h2{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left:150px;
+}
+
+
+select:hover{
+    border: 2px solid rgb(6, 112, 112);
+}
+ 
+
+p.termosPoliticos{
+        position: relative;
+        top: 200px;
+        text-align:center;
+        width: 500px;
+        position: relative;
+        top: 150px;
+        left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+}
+
+p span,a{
+    color: rgb(6, 112, 112);
+    text-decoration: none;
+}
+
+.tp{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 140px;
+    top:20px;
+}
+
+p#termosdeUso{
+    position: relative;
+    left: 140px;
+    top:17px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#termosdeUso  > a:hover{
+    color: rgb(41, 30, 196);
+}
+
+#redeSocial{
+    position: relative;
+    left: 140px;
+    top: 10px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.divGoogle{
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
+    left: 130px;
+    top:20px;
+    background-image: url(../imagens/icones/Google.png);
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.divFecebook{
+    height: 50px;
+    width: 50px;
+    border-radius: 45%;
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
+    left: 200px;
+    top:-32px;
+    background-image: url(../imagens/icones/facebook12.png);
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+input#butao{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border:2px solid black;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    left: 360px;
+    top: -80px;
+    text-align: center;
+    background-color: transparent;
+    
+}
+
+input#butao:hover{
+            border: 2px solid rgb(6, 112, 112);
+            color: rgb(6, 112, 112);
+}
